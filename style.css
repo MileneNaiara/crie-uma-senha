@@ -30,6 +30,7 @@ body{
     color: var(--branco);
     font-family: var(--roboto-mono);
     font-size: 40px;
+    width: 70%;
 }
 .titulo-principal{
     font-family: var(--roboto-mono);
@@ -50,4 +51,18 @@ body{
 .parametro-titulo{
     font-family: var(--roboto-mono);
     font-size: 28px;
+}
+.parametro-senha-titulo{
+    font-size: 24px;
+}
+.parametro-coluna-senha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and (min-width: 768px) {
+    .parametro-coluna__senha{
+    flex-direction: row;
+
+}
 }
