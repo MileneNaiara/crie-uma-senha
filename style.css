@@ -70,3 +70,21 @@ body{
     width: 50%;
     margin: 0 auto;
 }
+.parametro-senha-botoes{
+    display: flex;
+    justify-content: center;
+}
+.parametro-senha-botao{
+    background-color: var(--fundo-texto);
+    color: var(--branco);
+    border: 2px solid var(--borda);
+    padding: 24px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.parametro-senha-texto{
+    padding: 24px;
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    margin: 0;
+}
